@@ -1,0 +1,18 @@
+name: 3mah
+channels:
+  - conda-forge
+  - set3MAH
+dependencies:
+  - python=3.9
+  - pip
+  - setuptools
+  - ipykernel
+  - jupyterlab
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - pandas-datareader>=0.8.1
+  - simcoon
+  - pip:
+    - jupyterlab_latex
